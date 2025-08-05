@@ -1,5 +1,5 @@
 """
-WSGI config for _10_django_wsgi project.
+WSGI config for _10_02_django_wsgi project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -14,4 +14,3 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', '_10_02_django_wsgi.settings')
 
 application = get_wsgi_application()
-
